@@ -1,6 +1,7 @@
 from typing import Optional, Tuple
 
-class DynSolTypeWrapper: ...
+class DynSolTypeWrapper:
+    """Decode output from function"""
 
 class PyEvm:
     """An in-memory EVM"""
